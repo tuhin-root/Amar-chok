@@ -1,27 +1,38 @@
 [
   {
     "id": 1,
-    "title": "বাংলাদে নতুন খবর",
-    "summary": "সংক্ষিপ্ত বিবরণ",
-    "content": "পূর্ণ খবর এখানে লিখবে",
-    "image": "images/news1.jpg",
+    "title": "বিসিবি নির্বাচন থেকে সরে দাঁড়ালেন তামিম",
+    "summary": "বাংলাদেশ দলের সাবেক অধিনায়ক তামিম ইকবাল বিসিবির নির্বাচনে অংশ নিচ্ছেন না।",
+    "content": "পুরো খবরের বিস্তারিত এখানে লিখবে।",
+    "category": "সারাদেশ",
     "page": "bangladesh",
     "top_news": true,
-    "category": "সারাদেশ",
-    "timestamp": "2025-10-01T12:00:00"
+    "timestamp": "2025-10-01T10:00:00",
+    "image": "images/top1.jpg"
   },
   {
-  "id": 2,
-  "title": "নতুন ফুটবল ম্যাচের খবর",
-  "summary": "আজকের ম্যাচ সংক্ষিপ্ত বিবরণ।",
-  "content": "ম্যাচের বিস্তারিত খবর এখানে লিখবে।",
-  "category": "খেলাধুলা",
-  "page": "sports",
-  "top_news": false,
-  "timestamp": "2025-10-01T15:00:00",
-  "image": "images/sports-new.jpg"
-}
-
+    "id": 2,
+    "title": "আজকের আরেকটি বড় খবর",
+    "summary": "আজকের রাজনীতি ও সামাজিক প্রেক্ষাপটে বড় একটি ঘটনা ঘটেছে।",
+    "content": "বিস্তারিত খবর এখানে লিখবে।",
+    "category": "রাজনীতি",
+    "page": "politics",
+    "top_news": true,
+    "timestamp": "2025-10-01T09:00:00",
+    "image": "images/top2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "চকরিয়ায় পাহাড় ধসের ঘটনা",
+    "summary": "পাহাড় ধসের কারণে কিছু এলাকা বন্ধ আছে।",
+    "content": "বিস্তারিত খবর এখানে লিখবে।",
+    "category": "সারাদেশ",
+    "page": "bangladesh",
+    "top_news": false,
+    "timestamp": "2025-09-30T08:00:00",
+    "image": "images/news3.jpg"
+  }
 ]
+
 
 
