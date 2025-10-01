@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Bengali", sans-serif;
+  background: #f9f9f9;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Banner Ad */
+.ad-banner {
+  width: 100%;
+  text-align: center;
+  background: #f1f1f1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Header / Navbar */
+header {
+  background: #d32f2f;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* News Section */
+.news-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* News Row */
+.news-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.news-row article {
+  background: #fff;
+  flex: 1;
+  min-width: 30%;
+  height: 260px;       /* fixed height for all posts */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.news-row article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.news-row h4 {
+  font-size: 18px;
+  color: #d32f2f;
+  margin: 10px;
+  flex: 1;
+}
+
+.news-row h4 a {
+  text-decoration: none;
+  color: #d32f2f;
+}
+
+.news-row h4 a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}

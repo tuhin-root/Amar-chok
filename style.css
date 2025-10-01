@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Bengali", sans-serif;
+  background: #f9f9f9;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background: #d32f2f;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .navbar a {
+  color: white;
+  margin-left: 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Social Bar */
+.social-bar {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.social-bar a {
+  margin: 0 8px;
+  font-size: 18px;
+  color: #d32f2f;
+  text-decoration: none;
+}
+
+.social-bar a:hover {
+  color: black;
+}
+
+/* Top Banner Ad */
+.ad-banner {
+  width: 100%;
+  text-align: center;
+  background: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Layout */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Top News */
+.top-news-container {
+  display: flex;
+  gap: 20px;
+}
+
+.top-news-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.top-news {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.top-news img {
+  width: 260px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.top-text h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #d32f2f;
+}
+
+.top-text p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.btn {
+  background: #d32f2f;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Right Side Ads */
+.side-ads {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ad-box {
+  height: 250px;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/* Category Section */
+.category {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.category h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #d32f2f;
+}
+
+.category-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Mid Ads */
+.mid-ad {
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
