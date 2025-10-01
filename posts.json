@@ -10,5 +10,18 @@
     "category": "সারাদেশ",
     "timestamp": "2025-10-01T12:00:00"
   }
+  {
+  "id": 2,
+  "title": "নতুন ফুটবল ম্যাচের খবর",
+  "summary": "আজকের ম্যাচ সংক্ষিপ্ত বিবরণ।",
+  "content": "ম্যাচের বিস্তারিত খবর এখানে লিখবে।",
+  "category": "খেলাধুলা",
+  "page": "sports",
+  "top_news": false,
+  "timestamp": "2025-10-01T15:00:00",
+  "image": "images/sports-new.jpg"
+}
+
 ]
+
 
