@@ -1,1 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "বাংলাদেশে নতুন খবর",
+    "summary": "সংক্ষিপ্ত বিবরণ",
+    "content": "পূর্ণ খবর এখানে লিখবে",
+    "image": "images/news1.jpg",
+    "page": "bangladesh",
+    "top_news": true,
+    "category": "সারাদেশ",
+    "timestamp": "2025-10-01T12:00:00"
+  }
+]
 
