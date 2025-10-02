@@ -1,1 +1,23 @@
+backend:
+  name: git-gateway
+  branch: main  # GitHub repo main branch
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "News Posts"
+    folder: "data"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Category", name: "category", widget: "select", options: ["সারাদেশ","রাজনীতি","খেলাধুলা","আন্তর্জাতিক","বিনোদন"]}
+      - {label: "Page", name: "page", widget: "string"} # bangladesh, sports, etc
+      - {label: "Top News", name: "top_news", widget: "boolean"}
+      - {label: "Timestamp", name: "timestamp", widget: "datetime"}
 
