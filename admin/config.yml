@@ -2,6 +2,7 @@ backend:
   name: github
   repo: tuhin-root/Amar-chok
   branch: main
+  publish_mode: editorial_workflow
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
