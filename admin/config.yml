@@ -1,25 +1,22 @@
 backend:
   name: github
-  repo: tuhin-root/Amar-chok
-  branch: main
-  publish_mode: editorial_workflow
-
+  repo: your-github-username/your-repo-name  # GitHub repo নাম বসাও
+  branch: main  # অথবা master যদি তোমার main branch নাম master হয়
+  auth_type: implicit  # OAuth popup style, identity লাগবে না
+  open_authoring: true # visitor contribution enable করতে
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
-
 collections:
   - name: "posts"
-    label: "News Posts"
-    folder: "data"
+    label: "Posts"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Summary", name: "summary", widget: "text"}
-      - {label: "Content", name: "content", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Category", name: "category", widget: "select", options: ["সারাদেশ","রাজনীতি","খেলাধুলা","আন্তর্জাতিক","বিনোদন"]}
-      - {label: "Page", name: "page", widget: "string"} # bangladesh, sports, etc
-      - {label: "Top News", name: "top_news", widget: "boolean"}
-      - {label: "Timestamp", name: "timestamp", widget: "datetime"}
-
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Category", name: "category", widget: "select", options: ["সারাদেশ", "রাজনীতি", "খেলাধুলা", "আন্তর্জাতিক", "বিনোদন"] }
+      - { label: "Top News", name: "top_news", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image" }
